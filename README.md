@@ -10,5 +10,5 @@ pip install TrimMCStruct
 
 `TrimMCStruct`库的开源地址见此：https://gitee.com/TriM-Organization/mcstructure
 
-建议使用pypy解释器以加快处理速度，pypy解释器可以在[pypy官网](pypy.org/download.html)下载
+建议使用pypy解释器以加快处理速度，pypy解释器可以在[pypy官网](https://pypy.org/download.html)下载
 
