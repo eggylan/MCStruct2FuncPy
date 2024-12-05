@@ -1,3 +1,4 @@
+# -*- coding:utf-8 -*-
 from TrimMCStruct import Structure
 import os
 
@@ -30,6 +31,9 @@ def convert(path, output_path=""):
                  .replace('direction"=true', 'direction"=1') \
                  .replace('direction"=false', 'direction"=0') \
                  .replace('redstone_signal"=false', 'redstone_signal"=0') \
+                 .replace('redstone_signal"=true', 'redstone_signal"=1') \
+                 .replace('block_light_level"=true', 'block_light_level"=1') \
+                 .replace('block_light_level"=false', 'block_light_level"=0') \
 
                 cmds.append(f"setblock ~{x} ~{y} ~{z} {blockname}")
                 print(f"Converted block at {x}, {y}, {z} to setblock command.")
