@@ -9,4 +9,5 @@ pip install TrimMCStruct
 ```
 
 `TrimMCStruct`库的开源地址见此：https://gitee.com/TriM-Organization/mcstructure
+
 三维优化逻辑参考了此仓库：https://github.com/MCBE-Essentials/mcbe-essentials.github.io
